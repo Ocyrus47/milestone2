@@ -1,0 +1,14 @@
+{
+  "name": "milestone2",
+  "version": "1.0.0",
+  "description": "Milestone project 2 - Interactive frontend development",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
