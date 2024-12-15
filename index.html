@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/99123494ab.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Omin's Recipe App</title>
 </head>
 <body>
-    
+    <!-- Header and nav bar with form-->
     <header>
         <nav>
             <h1>
-               <a href="index.html"><img id="logo" src="assets/images/Icon.png" alt="Logo"></a>
+                <a href="index.html"><img id="logo" src="assets/images/Icon.png" alt="Logo"></a>
             </h1>
-            <input class="searchBox" type="text" placeholder="Search you Recipe">
-            <button class="search" type="button">Search</button>
+
+            <form>
+                <input class="searchBox" type="text" placeholder="Search you Recipe">
+                <button class="search" type="submit">Search</button>
+            </form>
         </nav>
     </header>
 
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>Search your favourite recipes</h2>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

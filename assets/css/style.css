@@ -1,14 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/********** Remove predefined margin and padding************/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
     }
 
 body {
+    background-color: #9b5f5f;
+    color: #fafafa;
+}
+
+header nav {
+    background-color: #fafafa;
     padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
 }
 
 #logo {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+header nav form {
+    display: flex;
+    justify-content: center;
+}
+
+form input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+form input[type="text"], button[type="submit"] {
+    border-color: #9b5f5f;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #9b5f5f;
+    color: #fafafa;
+}
+
+/***** Responsive for mobile devices********/
+@media screen and (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav form {
+        width: 80%;
+        margin-top: 25px;
+    }
 }
