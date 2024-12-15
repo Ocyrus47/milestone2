@@ -13,6 +13,8 @@ body {
     color: #fafafa;
 }
 
+/************Header elements**************/
+
 header nav {
     background-color: #fafafa;
     padding: 25px;
@@ -27,6 +29,7 @@ header nav {
     width: 50px;
 }
 
+/**********Form containing input and submit***********/
 header nav form {
     display: flex;
     justify-content: center;
@@ -44,10 +47,32 @@ form input[type="text"], button[type="submit"] {
     border-radius: 5px;
 }
 
-button[type="submit"] {
+form button[type="submit"] {
     background-color: #9b5f5f;
     color: #fafafa;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 }
+
+/***psudo property applied to search button****/
+form button[type="submit"]:hover {
+    background-color: #881d1d;
+    transition: background-color 0.2s ease-in;
+}
+
+
+/**************Main elements*************/
+
+
+
+
+
+
+
+
+
+
+
 
 /***** Responsive for mobile devices********/
 @media screen and (max-width: 600px) {
