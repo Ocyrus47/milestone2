@@ -6,10 +6,18 @@ const recipeContainer = document.querySelector('.recipe-container');
  * Function to fetch recipes
  * via API.
  */
-const fetchRecipes = async (query) => {
-    const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
-    const response = await data.json();
-    console.log(response);
+const fetchRecipes = async (query) => {                                                        // async function to allow await
+    const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`); // await used to load full data before return
+    const response = await data.json();                                                         // await used to load full data before return
+    
+    response.meals.forEach(meal => {
+        const recipeDiv = document.createElement('div');
+        recipeDiv.classList.add('recipe');                                                      // strMealThumb = image stored in API
+        recipeDiv.innerHTML =`
+            <img src ="${meal.strMealThumb}">                                                    
+        `
+        recipeContainer.appendChild(recipeDiv); 
+    });
 };
 
 /**
@@ -18,6 +26,6 @@ const fetchRecipes = async (query) => {
  */
 searchBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    const searchInput = searchBox.value.trim();
+    const searchInput = searchBox.value.trim();                                                 // trim() used to remove any whitesapce whithing the search inputfield
     fetchRecipes(searchInput);
 });
