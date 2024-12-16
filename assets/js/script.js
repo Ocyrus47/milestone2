@@ -1,6 +1,8 @@
 const searchBox = document.querySelector('.searchBox');
 const searchBtn = document.querySelector('.searchBtn');
 const recipeContainer = document.querySelector('.recipe-container');
+const recipeDetailsContent = document.querySelector('.recipe-details-content');
+const recipeCloseBtn = document.querySelector('.recipe-close-btn');
 
 /**
  * Function to fetch recipes
@@ -26,13 +28,28 @@ const fetchRecipes = async (query) => {                                         
         const button = document.createElement('button');                                        // create button to view recipe (addEventListener to return recipe on 'click')
         button.textContent = "View Recipe";                                                     // Named button to View Recipe
         recipeDiv.appendChild(button);                                                          // assign button (View Recipe) as child element to recipe div class
-                                     
+
+        button.addEventListener('click', () => {                                                // adding event listener to view recipe button
+            openRecipe(meal);
+        });
 
         recipeContainer.appendChild(recipeDiv); 
 
         console.log(recipeDiv);
         
     });
+};
+
+/**
+ * blocks recipe-details div 
+ * by default until called. 
+ */
+
+const openRecipe = (meal) => {                                                                         
+    recipeDetailsContent.innerHTML = `
+        <h2>${meal.strMeal}</h2>
+    `
+    recipeDetailsContent.parentElement.style.display = 'block';
 };
 
 /**
