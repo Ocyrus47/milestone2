@@ -70,9 +70,9 @@ const openRecipe = (meal) => {
         <h3>Ingredients: </h3>
         <ul class = "ingredientList">${fetchIngredients(meal)}</ul>
         <br>
-        <div>
+        <div class = "recipeInstructions">
             <h3>Instructions: </h3>
-            <p class = "recipeInstructions">${meal.strInstructions}</p>
+            <p>${meal.strInstructions}</p>
         </div>                                                         
     `
     recipeDetailsContent.parentElement.style.display = 'block';

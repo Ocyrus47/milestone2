@@ -48,7 +48,8 @@ form input[type="text"], button[type="submit"] {
 }
 
 /*********** contains transition to submit button and view recipe button *********/
-form button[type="submit"], .recipe button {
+form button[type="submit"], 
+.recipe button {
     background-color: #9b5f5f;
     color: #fafafa;
     cursor: pointer;
@@ -56,8 +57,11 @@ form button[type="submit"], .recipe button {
 }
 
 /***psudo property applied to search button****/
-form button[type="submit"]:hover, .recipe button:hover {
+form button[type="submit"]:hover, 
+.recipe button:hover, 
+.recipe-close-btn:hover {
     background-color: #881d1d;
+    color: #fff;
 }
 
 
@@ -85,6 +89,11 @@ form button[type="submit"]:hover, .recipe button:hover {
     box-shadow: 0 1px 15px rgba(34, 33, 33, 0.925), -15px -15px -20px rgba(22, 21, 21, 0.815);
     cursor: pointer;
     max-width: 350px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe:hover {
+    transform: scale(1.05);
 }
 
 .recipe img {
@@ -128,18 +137,83 @@ form button[type="submit"]:hover, .recipe button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    background-color: #9b5f5f;
+    background-color: #a36f6f;
     border-radius: 15px;
     width: 75%;
     height: 70%;
     font-size: 20px;
     transition: all 3s ease-in-out;
     overflow-y: scroll;
-    padding: 25px;
 }
 
+.recipe-details-content {
+    padding: 100px;
+    padding-top: 50px;
+}
 
+.recipeName {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
 
+.ingredientList {
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.recipeInstructions p {
+    line-height: 30px;
+    white-space: pre-line;
+
+}
+
+.recipeName 
+.ingredientList 
+.recipeInstructions {
+    margin-bottom: 20px;
+}
+
+/************** recipe-close-button****************************/
+
+.recipe-close-btn {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #881d1d;
+    font-weight: 900;
+}
+
+/****************** Adding scroll bar via webkits**************/
+.recipe-details::-webkit-scrollbar {
+    width: 10px;
+}
+
+.recipe-details::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 15px;
+    --webkit-border-radius: 15px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #8a8282;
+    border-radius: 15px;
+    --webkit-border-radius: 15px;
+}
 
 /***** Responsive for mobile devices********/
 @media screen and (max-width: 600px) {
