@@ -47,15 +47,16 @@ form input[type="text"], button[type="submit"] {
     border-radius: 5px;
 }
 
-form button[type="submit"] {
+/*********** contains transition to submit button and view recipe button *********/
+form button[type="submit"], .recipe button {
     background-color: #9b5f5f;
     color: #fafafa;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 /***psudo property applied to search button****/
-form button[type="submit"]:hover {
+form button[type="submit"]:hover, .recipe button:hover {
     background-color: #881d1d;
 }
 
@@ -106,7 +107,17 @@ form button[type="submit"]:hover {
     font-weight: 650;
 }
 
-
+.recipe button {
+    background-color: #9b5f5f;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 18px auto;
+    color: #fff;
+    border: none;
+}
 
 
 

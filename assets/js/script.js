@@ -25,7 +25,8 @@ const fetchRecipes = async (query) => {                                         
         
         const button = document.createElement('button');                                        // create button to view recipe (addEventListener to return recipe on 'click')
         button.textContent = "View Recipe";                                                     // Named button to View Recipe
-                                            
+        recipeDiv.appendChild(button);                                                          // assign button (View Recipe) as child element to recipe div class
+                                     
 
         recipeContainer.appendChild(recipeDiv); 
 
