@@ -62,13 +62,22 @@ const fetchIngredients = (meal) => {
  * Blocks recipe-details div 
  * by default until called. 
  * gets indredients from fetchIngredients function
+ * and measurements from strInstructions variable in API
  */
 const openRecipe = (meal) => {                                                                         
     recipeDetailsContent.innerHTML = `
         <h2>${meal.strMeal}</h2>
         <h3>Ingredients: </h3>
-        <ul>${fetchIngredients(meal)}</ul>                                                      
+        <ul>${fetchIngredients(meal)}</ul>
+        <br>
+        <div>
+            <h3>Instructions: </h3>
+            <p>${meal.strInstructions}</p>
+        </div>                                                         
     `
+
+        
+
     recipeDetailsContent.parentElement.style.display = 'block';
 };
 
