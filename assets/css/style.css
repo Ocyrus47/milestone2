@@ -86,7 +86,7 @@ form button[type="submit"]:hover,
     flex-direction: column;
     color: #9b5f5f;
     border-radius: 15px;
-    box-shadow: 0 1px 15px rgba(34, 33, 33, 0.925), -15px -15px -20px rgba(22, 21, 21, 0.815);
+    box-shadow: 0 1px 15px rgba(34, 33, 33, 0.925), 15px 15px 20px rgba(22, 21, 21, 0.815);
     cursor: pointer;
     max-width: 350px;
     transition: transform 0.3s ease-in-out;
