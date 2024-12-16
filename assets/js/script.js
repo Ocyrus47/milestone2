@@ -95,5 +95,10 @@ searchBtn.addEventListener('click', (e) => {
 searchBtn.addEventListener('click', (e) => {
     e.preventDefault();
     const searchInput = searchBox.value.trim();                                                 // trim() used to remove any whitesapce whithing the search inputfield
+    if (!searchInput) {
+        alert('Please input your search!');
+        recipeContainer.innerHTML = `<h2>Please type the recipe you want to seach to begin. Thank you!</h2>`
+        return;
+    }
     fetchRecipes(searchInput);
 });
