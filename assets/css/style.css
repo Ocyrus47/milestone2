@@ -60,13 +60,27 @@ form button[type="submit"]:hover {
 }
 
 
-/**************Main elements*************/
+/**************Main section*************/
 
+/************* style for recipe container***********/
 .recipe-container {
     text-align: center;
     margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    width: 80%;
+    margin: 10px auto;
+    /*padding: 25px; */
 }
 
+
+.recipe {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #9b5f5f;
+}
 
 
 
