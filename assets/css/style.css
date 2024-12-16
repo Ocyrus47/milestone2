@@ -75,7 +75,6 @@ form button[type="submit"]:hover {
     place-items: center;
 }
 
-
 .recipe {
     background-color: #fff;
     display: flex;
@@ -87,7 +86,25 @@ form button[type="submit"]:hover {
     max-width: 350px;
 }
 
+.recipe img {
+    height: 300px;
+    border-radius: 15px;
+}
 
+.recipe h3 {
+    font-size: 24px;
+    color: #8b3434;
+    margin-block: 5px;
+}
+
+.recipe p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.recipe span {
+    font-weight: 650;
+}
 
 
 
