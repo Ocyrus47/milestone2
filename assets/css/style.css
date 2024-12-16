@@ -124,15 +124,18 @@ form button[type="submit"]:hover, .recipe button:hover {
 .recipe-details {
     display: none;
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     background-color: #9b5f5f;
     border-radius: 15px;
-    width: 80%;
+    width: 75%;
     height: 70%;
     font-size: 20px;
+    transition: all 05.s ease-in-out;
+    overflow: scroll;
+    padding: 25px;
 }
 
 
