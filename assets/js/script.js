@@ -9,35 +9,38 @@ const recipeCloseBtn = document.querySelector('.recipe-close-btn');
  * via API.
  */
 const fetchRecipes = async (query) => {                                                         // async function to allow await
-    recipeContainer.innerHTML = "<h2>Fetching Recipes...</h2>";                                 
-    const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);  // await used to load full data before return
-    const response = await data.json();                                                         // await used to load full data before return
-    
-    recipeContainer.innerHTML = "";
+    recipeContainer.innerHTML = "<h2>Fetching Recipes...</h2>";   
+    try {                             
+        const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);  // await used to load full data before return
+        const response = await data.json();                                                         // await used to load full data before return
 
-    response.meals.forEach(meal => {
-        const recipeDiv = document.createElement('div');                                        // create DEV element for holding menu items and asigning class "recipe" to it
-        recipeDiv.classList.add('recipe');                                                      // strMealThumb = image stored in API
-        recipeDiv.innerHTML =`
-            <img src ="${meal.strMealThumb}">                                                   
-            <h3>${meal.strMeal}</h3>
-            <p><span>${meal.strArea}</span> Dish</p>
-            <p>This is a <span>${meal.strCategory}</span> recipe</p>                                          
-        `
-        
-        const button = document.createElement('button');                                        // create button to view recipe (addEventListener to return recipe on 'click')
-        button.textContent = "View Recipe";                                                     // Named button to View Recipe
-        recipeDiv.appendChild(button);                                                          // assign button (View Recipe) as child element to recipe div class
+        recipeContainer.innerHTML = "";
 
-        button.addEventListener('click', () => {                                                // adding event listener to view recipe button
-            openRecipe(meal);
+        response.meals.forEach(meal => {
+const recipeDiv = document.createElement('div');                                        // create DEV element for holding menu items and asigning class "recipe" to it
+recipeDiv.classList.add('recipe');                                                      // strMealThumb = image stored in API
+recipeDiv.innerHTML =`
+<img src ="${meal.strMealThumb}">                                                   
+<h3>${meal.strMeal}</h3>
+<p><span>${meal.strArea}</span> Dish</p>
+<p>This is a <span>${meal.strCategory}</span> recipe</p>                                          
+`
+
+const button = document.createElement('button');                                        // create button to view recipe (addEventListener to return recipe on 'click')
+button.textContent = "View Recipe";                                                     // Named button to View Recipe
+recipeDiv.appendChild(button);                                                          // assign button (View Recipe) as child element to recipe div class
+
+button.addEventListener('click', () => {                                                // adding event listener to view recipe button
+openRecipe(meal);
+});
+
+recipeContainer.appendChild(recipeDiv); 
+
         });
-
-        recipeContainer.appendChild(recipeDiv); 
-
-        console.log(recipeDiv);
-        
-    });
+    } catch (error) {
+        recipeContainer.innerHTML = "<h2>Invalid input! Please input correct recipe. Thank you</h2>";
+        alert('Error in fetching Recipes...').reset();
+    } 
 };
 
 /**
@@ -89,8 +92,8 @@ searchBtn.addEventListener('click', (e) => {
 
 
 /**
- * Reads the input in the search field when search button is clicked to 
- * pass the input to fetchRecipes function.
+ * Reads the input in the search field when search button is clicked to pass the input to fetchRecipes function.
+ * Prompt use for input!
  */
 searchBtn.addEventListener('click', (e) => {
     e.preventDefault();
