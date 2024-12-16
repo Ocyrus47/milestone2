@@ -206,13 +206,15 @@ form button[type="submit"]:hover,
 }
 
 body::-webkit-scrollbar {
-    width: 10px;
+    width: 20px;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #8a8282;
-    border-radius: 15px;
-    --webkit-border-radius: 15px;
+    background-color: #a07272;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #524e4e;
 }
 
 /***** Responsive for mobile devices********/
