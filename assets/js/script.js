@@ -56,7 +56,7 @@ const fetchIngredients = (meal) => {
         }
     }
     return ingredientsList;
-}
+};
 
 /**
  * Blocks recipe-details div 
@@ -66,20 +66,27 @@ const fetchIngredients = (meal) => {
  */
 const openRecipe = (meal) => {                                                                         
     recipeDetailsContent.innerHTML = `
-        <h2>${meal.strMeal}</h2>
+        <h2 class = "recipeName">${meal.strMeal}</h2>
         <h3>Ingredients: </h3>
-        <ul>${fetchIngredients(meal)}</ul>
+        <ul class = "ingredientList">${fetchIngredients(meal)}</ul>
         <br>
         <div>
             <h3>Instructions: </h3>
-            <p>${meal.strInstructions}</p>
+            <p class = "recipeInstructions">${meal.strInstructions}</p>
         </div>                                                         
     `
-
-        
-
     recipeDetailsContent.parentElement.style.display = 'block';
 };
+
+//Close button fuction for recipe details pop up
+recipeCloseBtn.addEventListener('click', () => {
+    recipeDetailsContent.parentElement.style = 'none';
+})
+
+searchBtn.addEventListener('click', (e) => {
+
+});
+
 
 /**
  * Reads the input in the search field when search button is clicked to 
