@@ -133,8 +133,8 @@ form button[type="submit"]:hover, .recipe button:hover {
     width: 75%;
     height: 70%;
     font-size: 20px;
-    transition: all 05.s ease-in-out;
-    overflow: scroll;
+    transition: all 3s ease-in-out;
+    overflow-y: scroll;
     padding: 25px;
 }
 
