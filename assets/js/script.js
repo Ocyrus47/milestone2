@@ -41,13 +41,33 @@ const fetchRecipes = async (query) => {                                         
 };
 
 /**
- * blocks recipe-details div 
- * by default until called. 
+ * function to fetch ingredients and measurements
+ * for recipe
  */
+const fetchIngredients = (meal) => {
+    let ingredientsList = "";
+    for (let i = 1; i <= 20; i++) {                                                              // starting loop from 1 and looping to 20 as inspected in variables in API.
+        const ingredient = meal[`strIngredient${i}`];                                            // strIngredient variable for ingerigents and strMeasure for Measurements
+        if (ingredient) {
+            const measure = meal[`strMeasure${i}`];
+            ingredientsList += `<li>${measure} ${ingredient}</li>`
+        } else {
+            break;
+        }
+    }
+    return ingredientsList;
+}
 
+/**
+ * Blocks recipe-details div 
+ * by default until called. 
+ * gets indredients from fetchIngredients function
+ */
 const openRecipe = (meal) => {                                                                         
     recipeDetailsContent.innerHTML = `
         <h2>${meal.strMeal}</h2>
+        <h3>Ingredients: </h3>
+        <ul>${fetchIngredients(meal)}</ul>                                                      
     `
     recipeDetailsContent.parentElement.style.display = 'block';
 };
