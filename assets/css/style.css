@@ -25,9 +25,8 @@ header nav {
 }
 
 #logo {
-    height: 70px;
-    width: 70px;
-    margin-left: 25px;
+    width: 50px;
+    height: 50px;
 }
 
 /**********Form containing input and submit***********/
@@ -60,7 +59,7 @@ form button[type="submit"],
 /***psudo property applied to search button****/
 form button[type="submit"]:hover, 
 .recipe button:hover, 
-.recipe-close-btn:hover {
+.recipe-close:hover {
     background-color: #881d1d;
     color: #fff;
 }
@@ -129,7 +128,6 @@ form button[type="submit"]:hover,
     border: none;
 }
 
-
 /*************** Recipe Details ***************/
 .recipe-details {
     display: none;
@@ -138,7 +136,7 @@ form button[type="submit"]:hover,
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    background-color: #a36f6f;
+    background-color: #581414;
     border-radius: 15px;
     width: 75%;
     height: 70%;
@@ -179,7 +177,7 @@ form button[type="submit"]:hover,
 
 /************** recipe-close-button****************************/
 
-.recipe-close-btn {
+.recipe-close {
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
@@ -191,7 +189,7 @@ form button[type="submit"]:hover,
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #881d1d;
+    color: #dd4e4e;
     font-weight: 900;
 }
 

@@ -2,7 +2,7 @@ const searchBox = document.querySelector('.searchBox');
 const searchBtn = document.querySelector('.searchBtn');
 const recipeContainer = document.querySelector('.recipe-container');
 const recipeDetailsContent = document.querySelector('.recipe-details-content');
-const recipeCloseBtn = document.querySelector('.recipe-close-btn');
+const recipeCloseBtn = document.querySelector('.recipe-close');
 
 /**
  * Function to fetch recipes
@@ -20,11 +20,11 @@ const fetchRecipes = async (query) => {                                         
 const recipeDiv = document.createElement('div');                                        // create DEV element for holding menu items and asigning class "recipe" to it
 recipeDiv.classList.add('recipe');                                                      // strMealThumb = image stored in API
 recipeDiv.innerHTML =`
-<img src ="${meal.strMealThumb}">                                                   
-<h3>${meal.strMeal}</h3>
+<img src = "${meal.strMealThumb}" alt = "image of dish" width="300" height="300">                                                   
+<h1>${meal.strMeal}</h1>
 <p><span>${meal.strArea}</span> Dish</p>
 <p>This is a <span>${meal.strCategory}</span> recipe</p>                                          
-`
+`;
 
 const button = document.createElement('button');                                        // create button to view recipe (addEventListener to return recipe on 'click')
 button.textContent = "View Recipe";                                                     // Named button to View Recipe
@@ -53,7 +53,7 @@ const fetchIngredients = (meal) => {
         const ingredient = meal[`strIngredient${i}`];                                            // strIngredient variable for ingerigents and strMeasure for Measurements
         if (ingredient) {
             const measure = meal[`strMeasure${i}`];
-            ingredientsList += `<li>${measure} ${ingredient}</li>`
+            ingredientsList += `<li>${measure} ${ingredient}</li>`;
         } else {
             break;
         }
@@ -77,7 +77,7 @@ const openRecipe = (meal) => {
             <h3>Instructions: </h3>
             <p>${meal.strInstructions}</p>
         </div>                                                         
-    `
+    `;
     recipeDetailsContent.parentElement.style.display = 'block';
 };
 
@@ -100,7 +100,7 @@ searchBtn.addEventListener('click', (e) => {
     const searchInput = searchBox.value.trim();                                                 // trim() used to remove any whitesapce whithing the search inputfield
     if (!searchInput) {
         alert('Please input your search!');
-        recipeContainer.innerHTML = `<h2>Please type the recipe you want to seach to begin. Thank you!</h2>`
+        recipeContainer.innerHTML = `<h2>Please type the recipe you want to seach to begin. Thank you!</h2>`;
         return;
     }
     fetchRecipes(searchInput);
