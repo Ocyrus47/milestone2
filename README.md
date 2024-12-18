@@ -7,6 +7,26 @@
 
 This is a responsive "Recipe Finder" app allowing the user to search their input for various catogeries of dishes. 
 
+## SDLC Process
+
+### Planing
+I decided to build a responsive recipe finder web app to align the project with assisting my cousin to learn cooking. Planing was taken into consideation with a view for further recipes to be added to the portfolio. 
+
+### Analysis
+Carried out research with individuals in my community who were keen on learning to cook. Most of them answered they use various cook books to find new dishes and recipes. Which meant for a certain recipe cook book a price was very high and it was often clunky to carry around while cooking. A recipe finder app with a simple search capabilities for various dishes and recipes would be more costeffective and give the developers capabilites to update new recipies on user demand.
+
+### Design
+The structure and UI of the app has been designed to ensure simplicity and ease of navigation to suit its intended audience.
+
+### Implementation
+Researched on the best practice for implementation process and applied agile methodology. Changes were made in conjuction with quick sprint session with volunteers on UI/UX. 
+
+### Testing
+Used manual and auto testing method by direct input. Screen shots and details of testing below.
+
+### Maintainance
+I will carry out maintainance by my own account via Gitpod (VS Code) and Github. I am looking to implement further functionalities and upgrade UI/UX features.
+
 ## User Experience (UX)
 
 ### App contents
