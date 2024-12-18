@@ -153,3 +153,29 @@ If the user does not type anything in the search field and executes the search b
 
 ## Testing
 
+This app code was validate by using W3C CSS Validation Service, W3C Markup Validation Service and lighthouse. 
+
+Testing was conducted throughout the entire project development phase. Google Developer Tools and [JSHint](https://jshint.com/) were utilized to identify errors and troubleshoot any issues that arose during development.
+
+Automated testing helps catch problems quickly and saves time by letting the computer do repetitive tasks instead of the developer. 
+
+
+### Code Validation
+
+#### HTML Validation
+
+[W3C Markup Valication Service](https://validator.w3.org/ 'link to Markup validator')
+![Index](./assets/testing/html-test.jpg)
+
+#### CSS Validation
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ 'link to CSS validator')
+![Index](./assets/testing/css-test.jpg)
+
+### Lighthouse testing
+
+
+
+
+
+### BUGS found and resolution
