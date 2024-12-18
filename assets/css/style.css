@@ -65,7 +65,26 @@ form button[type="submit"]:hover,
 }
 
 
-/**************Main section*************/
+/************** Main section *************/
+
+/************** User Manaual ************/
+
+.user-manual {
+    margin: 0 auto;
+    padding: 5%;
+    background-color: #c09393;
+    color: #524e4e;
+    border-radius: 15px;
+    width: 75%;
+    font-size: 20px;
+    transition: all 3s ease-in-out;
+}
+
+.user-manual ul {
+    font-weight: 600;
+    padding-left: 10%;
+}
+
 
 /************* style for recipe container***********/
 .recipe-container {
@@ -226,4 +245,15 @@ body::-webkit-scrollbar-track {
         width: 80%;
         margin-top: 25px;
     }
+
+    /*********** User Manual - Index **************/
+
+    .user-manual {
+        font-size: small;
+    }
+
+    .user-manual ul {
+        font-weight: bold;
+    }
 }
+
