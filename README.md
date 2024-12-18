@@ -117,6 +117,8 @@ My goal in the design was to make it as easy as possible to access information o
     <li>Javascript</li>
     <li>Google Chrome Dev Tools</li>
     <li>lighthouse test</li>
+    <li>Github</li>
+    <li>Gitpod</li>
     <li>Open API from (https://www.themealdb.com/api.php)</li>
     <li>Mr Free Logo Maker (https://myfreelogomaker.com/)</li>
     <li>Font Awesome</li>
