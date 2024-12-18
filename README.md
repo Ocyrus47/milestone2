@@ -59,5 +59,34 @@ The purpose of this app is to equip anyone who is looking to learn how to cook o
     <li>As a user, I want to be able to use the app in my mobile and ipads so I can follow the recipe while cooking.</li>
 </ol>
 
+### Project Scope
 
+#### The following feature will be in scope for this project
+
+- Index page with dish and recipe contents and manual.
+- Ability to search recipes and dishes using aplhabets or dish name .
+- Recipes starting with the alphabets will show up in grid blocks with name and view button.
+- View button in searched recipe will open the details for the recipe.
+- Empty input will prompt the user with alert.
+- Invalid recipe or dish name will prompt the user with alert.
+
+#### Possible future implementations currently out of scope include:
+
+- Implement a contact us page for user to suggest any recipes they would like to add to the app. 
+- Create a sign up process allowing the user to login the app and favourite certain dish and recipe. 
+-  Creating comment sections in for each recipe to build user cummunity.
+
+
+## Accessibility
+
+The site has been built with accessibility in mind to ensure that it is always a positive experience.
+
+This has been achieved by:
+- Semantic HTML.
+- Choosing fonts and colours with high contrast.
+- Adequate aria-labels for interactive features.
+- Adequate alt attributes for images.
+
+
+## Wireframes
 
