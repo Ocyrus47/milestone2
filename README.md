@@ -1,5 +1,4 @@
-# milestone1
-## Milestone project 2 - Interactive Frontend Development
+# Milestone project 2 - Interactive Frontend Development
 
 ![app Icon](/assets/images/icon.jpg)
 
@@ -198,6 +197,51 @@ Best Practice and SEO testing for Desktop
 
 Best Practice and SEO testing for Mobile
 ![style](./assets/testing/best-practice-seo-test-mobile.jpg)
+
+
+### Testing User stories
+
+1. I want the app to be simple to navigate and use.
+    * The app consists of one page with everything it provides.
+    * The app has a simple structure, making it easy to navigate.
+    * The app contains only necessary content.
+    * The structure remains the same on all device sizes.
+    * The app follows good accessibility principles.
+
+2. I want the app to be accessible on multiple platforms (such as web, mobile, and tablets), so that users can play it on their preferred devices.
+    * The app has been designed with a mobile first approach.
+    * The app is responsive on all device sizes.
+
+3. I want the app to have a visually appealing interface with good design principles, so that it attracts and engages users from the moment they visit.
+    * The app follows a consistent design.
+    * The colours used are in good contrast and follow the theme of the app.
+    * The interface is simple yet pleasing, keeping the user engaged.
+
+4. I want the app to show the user a manual to assist the user with their recipe search.
+    * The app follows a consistent design. 
+    * The colours are used in good contrast and follows the theme of the app.
+    * The direction for search option is clearly visible to the user.
+
+5. I want the app to have to ability to prompt the user if their input in invalid or NULL. 
+    * The app will prompt alert message notifying the user of invalid input.
+    * The message in background will change to ask the use to input correct recipe.
+
+6. I want the app to produce the search results in a grid view of all the recipies when the search button is triggered with the correct search input. 
+    * The app will show a responsive grid of recipes.
+    * The app will transition the selected recipe to ease-in-out to upon mouse over. 
+    * The mouse pointer will apply to create a more easire UI for the user. 
+
+7. I want the app to pop out recipe details page when the user clicks the view recipe button in the grid view.
+    * The app will show the recipe details contents in a pop up page.
+    * The app follows a consistent design. 
+    * The colours are used in good contrast and follows the theme of the app.
+
+8. I want the app to close the pop out recipe details page when close button is clicked. 
+    * The close button will highlight to change change color when cursor over. 
+    * The pop up page is closed when the close button is clicked. 
+
+
+
 
 
 ## BUGS found and resolution
