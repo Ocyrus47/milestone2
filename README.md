@@ -128,3 +128,28 @@ My goal in the design was to make it as easy as possible to access information o
 
 ### Existing features
 
+- The site features a responsive design, ensuring accessibility across all device sizes.
+- All images are of high quality and are accessed through API.
+- The design is simple, providing an immediate understanding of the app's purpose with an ease of use.
+- The site consists of a single page, making it easy to navigate and simple to use.
+
+The header consists of app logo, a search field for recipes and dishes for the user and a search button to execute the search. The index page also has a manual directing the user on various keywords to begin their search to access the recipe. 
+
+#### Wrong input
+
+If the use type in wrong input in the search field they will be prompted with an alert and message for wrong input. In order for the user to reset the search they simple needs to click to app logo. 
+
+#### No/Null input
+
+If the user does not type anything in the search field and executes the search button they will be prompted with an alert and a message showing  Null input. 
+
+### Features to implement
+
+- Contact us page for users to suggest any recipes they would like to add to the app. 
+- Sign up form allowing the user to create their account and login the app.
+- Allow logged in users to favourite certain dish and recipe they are keen to try.
+-  Create comment section for each recipe to build user cummunity and activity in the app. 
+
+
+## Testing
+
