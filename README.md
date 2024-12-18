@@ -125,6 +125,14 @@ My goal in the design was to make it as easy as possible to access information o
     <li>Media Queries</li>
 </ul>
 
+### Languages
+
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavScript</li>
+</ol>
+
 ## Features
 
 ### Existing features
@@ -297,4 +305,6 @@ Best Practice and SEO testing for Mobile
 
 
 ## BUGS found and resolution
+
+NULL input - If the user clicks search button without any input results shown in random. So I added the if statement to the searchInput function to alert the user to input valid input. I also changed innerHTML for recipeContainer to put in the following message "Please type the recipe you want to seach to begin. Thank you!<" to guide the user. 
 
