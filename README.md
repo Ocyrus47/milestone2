@@ -125,3 +125,6 @@ My goal in the design was to make it as easy as possible to access information o
 </ul>
 
 ## Features
+
+### Existing features
+
