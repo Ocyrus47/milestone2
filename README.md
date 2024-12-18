@@ -118,6 +118,7 @@ My goal in the design was to make it as easy as possible to access information o
     <li>lighthouse test</li>
     <li>Github</li>
     <li>Gitpod</li>
+    <li>Miro</li>
     <li>Open API from (https://www.themealdb.com/api.php)</li>
     <li>Mr Free Logo Maker (https://myfreelogomaker.com/)</li>
     <li>Font Awesome</li>
@@ -303,8 +304,44 @@ Best Practice and SEO testing for Mobile
 | -------------------------------------------------------------------------------------------|------------------|
 | Reset the search criteria                                                                  |         Y        |
 
+### Project Outcome
 
-## BUGS found and resolution
+Overall, the project successfully meets all client goals and, after extensive testing, fulfills each criterion established for its purpose.
+
+### Devices
+
+Google Developer Tools was used to test the site on various device sizes.
+
+The following devices were used to test the app:
+- 32" (3840 x 2160) Samsung Desktop Monitor
+- 15" (1920 x 1080) ASUS Nitro Laptop
+- iPad Tablet
+- iPhone 11 Pro Mobile
+
+### Browsers
+
+The following browsers were used to test the app:
+- Google Chrome
+- Mozilla Firefox
+
+## BUGS found and Resolution
 
 NULL input - If the user clicks search button without any input results shown in random. So I added the if statement to the searchInput function to alert the user to input valid input. I also changed innerHTML for recipeContainer to put in the following message "Please type the recipe you want to seach to begin. Thank you!<" to guide the user. 
 
+## Credits
+
+### Acknowledgements
+
+- My tutor for guidance throughout the project.
+- Code Institute for their course material.
+- My cousing for her feedback, help and support throughout the project.
+- [Programming with Mosh.](https://www.youtube.com/@programmingwithmosh)
+
+### Resources
+
+- [W3 Schools](https://www.w3schools.com/css/css3_flexbox.asp) for reference throughout the project.
+- [Stack overflow](https://stackoverflow.com/) for 
+- [MND](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for reference on JavaScript.
+- [YouTube](https://www.youtube.com/) for reference throughout the project.
+- [CodeAcademy mobile App](https://www.codecademy.com/) free version exercises for learning the concepts for JS ES6 syntax. 
+- [Programming with Mosh.](https://www.youtube.com/@programmingwithmosh) for familirising JS ES6 syntax.
