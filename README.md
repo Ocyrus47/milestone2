@@ -90,3 +90,38 @@ This has been achieved by:
 
 ## Wireframes
 
+### Index section for APP
+![Index](./assets/images/index.jpg)
+
+### Recipe Grid after app returns user's search
+![Recipe Grid](./assets/images/recipe-grid.jpg)
+
+### Recipe details after user click view recipe button
+![Recipe Details](./assets/images/recipe-details.jpg)
+
+### Mobile UI - Recipe Grid after app returns user's search
+![Recipe Grid](./assets/images/mobile-recipe-grid.jpg)
+
+### Mobile UI - Recipe details after user click view recipe button
+![Recipe Grid](./assets/images/mobile-recipe-details.jpg)
+
+### Strategy
+
+My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist and easy to navigate UX design.
+
+## Technologies
+
+<ul>
+    <li>HTML 5</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Google Chrome Dev Tools</li>
+    <li>lighthouse test</li>
+    <li>Open API from (https://www.themealdb.com/api.php)</li>
+    <li>Mr Free Logo Maker (https://myfreelogomaker.com/)</li>
+    <li>Font Awesome</li>
+    <li>Google Fonts</li>
+    <li>Media Queries</li>
+</ul>
+
+## Features

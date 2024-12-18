@@ -39,7 +39,7 @@ recipeContainer.appendChild(recipeDiv);
         });
     } catch (error) {
         recipeContainer.innerHTML = "<h2>Invalid input! Please input correct recipe. Thank you</h2>";
-        alert('Error in fetching Recipes...').reset();
+        alert('Error in fetching Recipes...');
     } 
 };
 
