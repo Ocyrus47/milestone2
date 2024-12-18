@@ -240,8 +240,61 @@ Best Practice and SEO testing for Mobile
     * The close button will highlight to change change color when cursor over. 
     * The pop up page is closed when the close button is clicked. 
 
+### Functionality testing
+
+#### App page load
+
+| Action                        | Expected Result    | Pass/Fail|
+| ----------------------------- |--------------------|----------|
+| Site URL entered into browser | Site loads         | Pass     |
 
 
+#### Responsiveness
+
+| Action                        | Expected Result    | Pass/Fail|
+| ----------------------------- |--------------------|----------|
+| Test on mobile device         | Responsive         | Pass     |
+| Test on tablet device         | Responsive         | Pass     |
+| Test on laptop device         | Responsive         | Pass     |
+| Test on desktop               | Responsive         | Pass     |
+
+
+#### Search for recipe
+
+| Action                        | Expected Result                       | Criteria met Y/N|
+| ----------------------------- |---------------------------------------|-----------------|
+| Invalid Input                 | Alert pop up / Message changed in app | Y               |
+| Valid Input                   | Menu grid view shown                  | Y               |
+| Null Input                    | Alert pop up / Message changed in app | Y               |
+
+
+#### Hover orver and mouse point on menu grid for valid search
+
+| Mouse over effect on grid menu                                                             | Criteria met Y/N | 
+| -------------------------------------------------------------------------------------------|------------------|
+| Menu grid transition to ease - in  out                                                     |         Y        |
+
+
+#### Menu details pop page on view recipe button click
+
+| View recipe putton clicked                                                                 | Criteria met Y/N | 
+| -------------------------------------------------------------------------------------------|------------------|
+| Pop up page with recipe details opens                                                      |         Y        |
+
+
+#### Close menu details pop up page on close button click
+
+| Close button clicked in pop up recipe details page                                         | Criteria met Y/N | 
+| -------------------------------------------------------------------------------------------|------------------|
+| Pop up page with recipe details closes                                                     |         Y        |
+
+
+#### Click app logo to reset the search 
+
+| Click app logo                                                                             | Criteria met Y/N | 
+| -------------------------------------------------------------------------------------------|------------------|
+| Reset the search criteria                                                                  |         Y        |
 
 
 ## BUGS found and resolution
+
