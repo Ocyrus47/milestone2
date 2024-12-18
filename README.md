@@ -172,12 +172,32 @@ Automated testing helps catch problems quickly and saves time by letting the com
 #### CSS Validation
 
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ 'link to CSS validator')
-![Index](./assets/testing/css-test.jpg)
+![style](./assets/testing/css-test.jpg)
 
 ### Lighthouse testing
 
+Lighthouse test for desktop
+![style](./assets/testing/lighthouse-test-desktop.jpg)
+
+Lighthouse test for mobile
+![style](./assets/testing/lighthouse-test-mobile.jpg)
+
+### Accessibility testing
+
+Accessibility testing for Desktop
+![style](./assets/testing/accessibility%20test-desktop.jpg)
+
+Accessibility testing for mobile
+![style](./assets/testing/accessibility%20test-mobile.jpg)
 
 
+### Test carried out for Best Practice and SEO 
+
+Best Practice and SEO testing for Desktop
+![style](./assets/testing/best-practice-seo-test-desktop.jpg)
+
+Best Practice and SEO testing for Mobile
+![style](./assets/testing/best-practice-seo-test-mobile.jpg)
 
 
-### BUGS found and resolution
+## BUGS found and resolution
