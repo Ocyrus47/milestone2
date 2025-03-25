@@ -17,6 +17,14 @@ Carried out research with individuals in my community who were keen on learning 
 ### Design
 The structure and UI of the app has been designed to ensure simplicity and ease of navigation to suit its intended audience.
 
+<ol>
+    <li>The user is able to able to go back to the home page with a single click of a button to the icon located at the top left of the header.</li>
+    <li>The use can search for any recipe by just entering a single alphabet which will give out the list of recipies to choose from.</li>
+    <li>If the user does not input any search criteria, they will be prompted to input a search criteria</li>
+    <li></li>
+</ol>
+
+
 ### Implementation
 Researched on the best practice for implementation process and applied agile methodology. Changes were made in conjuction with quick sprint session with volunteers on UI/UX. 
 
