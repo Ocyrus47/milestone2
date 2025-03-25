@@ -20,8 +20,11 @@ The structure and UI of the app has been designed to ensure simplicity and ease 
 <ol>
     <li>The user is able to able to go back to the home page with a single click of a button to the icon located at the top left of the header.</li>
     <li>The use can search for any recipe by just entering a single alphabet which will give out the list of recipies to choose from.</li>
-    <li>If the user does not input any search criteria, they will be prompted to input a search criteria</li>
-    <li></li>
+    <li>If the user does not input any search criteria, they will be prompted to input a search criteria.</li>
+    <li>Once the user has made a search by clicking the search button, they can view the recipies in grid.</li>
+    <li>Mouse hoover over zoom effect is applied for users to verify their selection and they can view the recipe details by click the "view recipe" button.</li>
+    <li>Recipe details will apprear in a modal dialog window with custon scroll bar on the right.</li>
+    <li>Once the user has finished viewing the recipe, the can simply click the X button at the top right corner of the modal dialog window.</li>
 </ol>
 
 
