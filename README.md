@@ -339,6 +339,8 @@ The following browsers were used to test the app:
 
 NULL input - If the user clicks search button without any input results shown in random. So I added the if statement to the searchInput function to alert the user to input valid input. I also changed innerHTML for recipeContainer to put in the following message "Please type the recipe you want to seach to begin. Thank you!<" to guide the user. 
 
+### All of the code in this project is done by me
+
 ## Credits
 
 ### Acknowledgements

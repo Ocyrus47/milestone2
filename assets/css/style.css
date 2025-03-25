@@ -9,7 +9,10 @@
     }
 
 body {
-    background-color: #9b5f5f;
+    background-image: url("../images/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #fafafa;
 }
 
@@ -64,26 +67,24 @@ form button[type="submit"]:hover,
     color: #fff;
 }
 
-
-/************** Main section *************/
-
 /************** User Manaual ************/
 
 .user-manual {
     margin: 0 auto;
     padding: 5%;
-    background-color: #834444;
+    background-color: #796565;
+    opacity: 80%;
     border-radius: 15px;
-    width: 75%;
+    width: 50%;
     font-size: 20px;
     transition: all 3s ease-in-out;
+    align-self: center;
 }
 
 .user-manual ul {
     font-weight: 600;
     padding-left: 10%;
 }
-
 
 /************* style for recipe container***********/
 .recipe-container {
