@@ -35,11 +35,12 @@
             background-color: #9b5f5f;
             color: #fff;
             text-decoration: none;
+            text-transform: uppercase;
             padding: 10px 20px;
             border-radius: 10px;
             font-size: 18px;
             text-shadow: 0 0 10px #0d0d0e;
-            box-shadow: 0 0 10px #fffc;
+            box-shadow: 0 0 10px #fff;
             transition: transform 0.2s, box-shadow 0.2s;
         }
 
@@ -50,12 +51,22 @@
         a:active {
             transform: scale(0.95);
         }
+
+        .error {
+            background: rgba(4, 4, 31, 0.95);
+            padding: 40px;
+            box-shadow: 0 0 20px #fff, 0 0 40px #0d0d0e;
+        }
+
+        .error  img {
+            width: 50%;
+        }
+
     </style>
 </head>
 <body>
-    <div>
+    <div class="error">
         <img src="./assets/images/404.jpg" alt="404 page not found">
-        <h1>404</h1>
         <p>Sorry the page you are looking for is not found!</p>
         <a href="index.html">Back to home page</a>
     </div>
