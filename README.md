@@ -91,13 +91,23 @@ The purpose of this app is to equip anyone who is looking to learn how to cook o
 - **Ability to search recipes and dishes using aplhabets or dish name.**
 ![recipe page](/assets/images/recipe-page.jpg)
 
-- Recipes starting with the alphabets will show up in grid blocks with name and view button.
+- **Recipes starting with the alphabets will show up in grid blocks with name and view button.**
+![recipe page](/assets/images/recipe-page-with-dish-name.jpg)
 
-- Clicling the view button in searched recipe will open the details for the recipe.
+- **Mover over effect will enlarge the selected recipe for the user**
+![recipe page](/assets/images/recipe-highlight-image.jpg)
 
-- Empty input will prompt the user with alert.
+- **Clicking the view button in searched recipe will open the details for the recipe.**
+![recipe page](/assets/images/Recipe-modal.jpg)
 
-- Invalid recipe or dish name will prompt the user with alert.
+- **User has access to custom scroll bar on the right and close button top right**
+![recipe page](/assets/images/Recipe-modal-scrollbar-closebtn.jpg)
+
+- **Empty input will prompt the user with alert**.
+![recipe page](/assets/images/empty-input-promt.jpg)
+
+- **Invalid recipe or dish name will prompt the user with alert.**
+![recipe page](/assets/images/invalid-input-prompt.jpg)
 
 #### Possible future implementations currently out of scope include:
 
