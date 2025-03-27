@@ -83,50 +83,26 @@ The purpose of this app is to equip anyone who is looking to learn how to cook o
 
 ### Project Scope
 
-#### The following feature will be in scope for this project
+#### The following features will be available in scope for this project
 
-**Index page with dish and recipe contents and manual.**
-- Index page shows and explains the search criteria to the users. Icon at the top left will always take the user back to Index page in any phase of their journey within the app. 
-![index page](/assets/images/index-page.jpg)
+### Index Page with search maual
 
-**Ability to search recipes and dishes using aplhabets to show up in grid blocks with name and view button..**
-- Users are able to simply search with the first alphabets to their desired recipe in the search box.
-![recipe page](/assets/images/recipe-page.jpg)
+- The site features a responsive design, ensuring accessibility across all device sizes.
+- All images are of high quality and are accessed through API.
+- The design is simple, providing an immediate understanding of the app's purpose with an ease of use.
+- The site consists of a single page, making it easy to navigate and simple to use.
 
-**Recipes starting with the dish name will show up in grid blocks with name and view button.**
-- Users are able to simply search with the dish name as suggested in the index page to their desired recipe in the search box.
-![recipe page](/assets/images/recipe-page-with-dish-name.jpg)
+The header consists of app logo, a search field for recipes and dishes for the user and a search button to execute the search. The index page also has a manual directing the user on various keywords to begin their search to access the recipe. 
 
-**Mover over effect will enlarge the selected recipe for the user**
-- Moving a mouse over will enlarge the recipe item prompting the user their choice.
-![recipe page](/assets/images/recipe-highlight-image.jpg)
+#### Wrong input
 
-**Clicking the search button with execute search recipe for the user**
-- After inputting desired searh criteria they user is able to clikc the search button to execute search based on their input taking them to the recipe grid view page.
-![recipe page](/assets/images/recipe-highlight-image.jpg)
+If the use type in wrong input in the search field they will be prompted with an alert and message for wrong input. In order for the user to reset the search they simple needs to click to app logo. 
 
-**Clicking the view button in searched recipe will open the details for the recipe.**
-- Recipe details are opened in a modal prompting the user and give them access to the recipe.
-![recipe page](/assets/images/Recipe-modal.jpg)
+#### No/Null input
 
-**User has access to custom scroll bar on the right and close button top right**
-- Custom scroll bar present in modal for longer recipe items and a custom close button for user to close when done. Closing the recipe modal will take the user back to the search page.
-![recipe page](/assets/images/Recipe-modal-scrollbar-closebtn.jpg)
+If the user does not type anything in the search field and executes the search button they will be prompted with an alert and a message showing  Null input. 
 
-**Empty input will prompt the user with alert**.
-- clicking the search button without and input will prompt and direct the user to input their search criteria in the search box. 
-![recipe page](/assets/images/empty-input-promt.jpg)
-
-**Invalid recipe or dish name will prompt the user with alert.**
-- clicking the search button with invalid input will prompt and notify the user their search criteria in invalid. 
-![recipe page](/assets/images/invalid-input-prompt.jpg)
-
-#### Possible future implementations currently out of scope include:
-
-- Implement a contact us page for user to suggest any recipes they would like to add to the app. 
-- Create a sign up process allowing the user to login the app and favourite certain dish and recipe. 
--  Creating comment sections in for each recipe to build user cummunity.
-
+---
 
 ## Accessibility
 
@@ -195,24 +171,43 @@ My goal in the design was to make it as easy as possible to access information o
 
 ## Features
 
-### Existing features
+**Index page with dish and recipe contents and manual.**
+- Index page shows and explains the search criteria to the users. Icon at the top left will always take the user back to Index page in any phase of their journey within the app. 
+![index page](/assets/images/index-page.jpg)
 
-- The site features a responsive design, ensuring accessibility across all device sizes.
-- All images are of high quality and are accessed through API.
-- The design is simple, providing an immediate understanding of the app's purpose with an ease of use.
-- The site consists of a single page, making it easy to navigate and simple to use.
+**Ability to search recipes and dishes using aplhabets to show up in grid blocks with name and view button..**
+- Users are able to simply search with the first alphabets to their desired recipe in the search box.
+![recipe page](/assets/images/recipe-page.jpg)
 
-The header consists of app logo, a search field for recipes and dishes for the user and a search button to execute the search. The index page also has a manual directing the user on various keywords to begin their search to access the recipe. 
+**Recipes starting with the dish name will show up in grid blocks with name and view button.**
+- Users are able to simply search with the dish name as suggested in the index page to their desired recipe in the search box.
+![recipe page](/assets/images/recipe-page-with-dish-name.jpg)
 
-#### Wrong input
+**Mover over effect will enlarge the selected recipe for the user**
+- Moving a mouse over will enlarge the recipe item prompting the user their choice.
+![recipe page](/assets/images/recipe-highlight-image.jpg)
 
-If the use type in wrong input in the search field they will be prompted with an alert and message for wrong input. In order for the user to reset the search they simple needs to click to app logo. 
+**Clicking the search button with execute search recipe for the user**
+- After inputting desired searh criteria they user is able to clikc the search button to execute search based on their input taking them to the recipe grid view page.
+![recipe page](/assets/images/recipe-highlight-image.jpg)
 
-#### No/Null input
+**Clicking the view button in searched recipe will open the details for the recipe.**
+- Recipe details are opened in a modal prompting the user and give them access to the recipe.
+![recipe page](/assets/images/Recipe-modal.jpg)
 
-If the user does not type anything in the search field and executes the search button they will be prompted with an alert and a message showing  Null input. 
+**User has access to custom scroll bar on the right and close button top right**
+- Custom scroll bar present in modal for longer recipe items and a custom close button for user to close when done. Closing the recipe modal will take the user back to the search page.
+![recipe page](/assets/images/Recipe-modal-scrollbar-closebtn.jpg)
 
-### Features to implement
+**Empty input will prompt the user with alert**.
+- clicking the search button without and input will prompt and direct the user to input their search criteria in the search box. 
+![recipe page](/assets/images/empty-input-promt.jpg)
+
+**Invalid recipe or dish name will prompt the user with alert.**
+- clicking the search button with invalid input will prompt and notify the user their search criteria in invalid. 
+![recipe page](/assets/images/invalid-input-prompt.jpg)
+
+### Possible future implementations currently out of scope include:
 
 - Contact us page for users to suggest any recipes they would like to add to the app. 
 - Sign up form allowing the user to create their account and login the app.
