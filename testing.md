@@ -12,44 +12,84 @@ Testing was conducted throughout the entire project development phase. Google De
 
 Automated testing helps catch problems quickly and saves time by letting the computer do repetitive tasks instead of the developer. 
 
+---
 
 ### Code Validation
 
 #### HTML Validation
 
-[W3C Markup Valication Service](https://validator.w3.org/ 'link to Markup validator')
 ![Index](./assets/testing/html-test.jpg)
+
+[W3C Markup Valication Service](https://validator.w3.org/ 'link to Markup validator')
+
+---
 
 #### CSS Validation
 
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ 'link to CSS validator')
 ![style](./assets/testing/css-test.jpg)
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ 'link to CSS validator')
+
+---
 
 ### Lighthouse testing
 
-Lighthouse test for desktop
+**Desktop performance test**
+<details>
+
+<summary>Screenshot for desktop Performance test</summary>
+
 ![style](./assets/testing/lighthouse-test-desktop.jpg)
 
-Lighthouse test for mobile
+</details>
+
+---
+
+**Mobile performance test**
+<details>
+
+<summary>Screenshot for mobile performance test</summary>
+
 ![style](./assets/testing/lighthouse-test-mobile.jpg)
+</details>
+
+---
 
 ### Accessibility testing
 
-Accessibility testing for Desktop
+**Accessibility testing for Desktop**
+<details>
+
+<summary>Screenshot for Desktop accessibility test</summary>
+
 ![style](./assets/testing/accessibility-test-desktop.jpg)
 
-Accessibility testing for mobile
+</details>
+
+---
+
+**Accessibility testing for mobile**
+<details> 
+
+<summary>Screenshot for Mobile accessibility test</summary>
+
 ![style](./assets/testing/accessibility-test-mobile.jpg)
 
+</details>
+
+---
 
 ### Test carried out for Best Practice and SEO 
 
 Best Practice and SEO testing for Desktop
 ![style](./assets/testing/best-practice-seo-test-desktop.jpg)
 
+---
+
 Best Practice and SEO testing for Mobile
 ![style](./assets/testing/best-practice-seo-test-mobile.jpg)
 
+---
 
 ### Testing User stories
 
