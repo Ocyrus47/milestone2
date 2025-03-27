@@ -159,9 +159,6 @@ This has been achieved by:
 
 ---
 
-
-
-
 ### Strategy
 
 My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist and easy to navigate UX design.
@@ -254,7 +251,55 @@ NULL input - If the user clicks search button without any input results shown in
 
 ---
 
-### All of the code in this project is done by me
+## Deployment
+
+This app is hosted using GitHub page and can be accessed via the link below:
+
+**[OL's Recipe Finder](https://ocyrus47.github.io/milestone2/)**  
+
+### How to Deploy
+
+To deploy this project using **GitHub Pages** from its GitHub repository, the following steps were taken:  
+
+1. Navigate to your GitHub repository.  
+2. From the top menu, select **Settings**.  
+3. Scroll down to the **GitHub Pages** section.  
+4. Under **Source**, click the dropdown menu labeled **None** and select **Main Branch** (or `master` depending on your branch name).  
+5. Click **Save** (if required).  
+6. Once saved, GitHub automatically deploys the project.  
+
+
+### How to Run Locally  
+
+To clone and run this project locally, follow the following steps:
+
+1. Go to the project's GitHub repository:  
+   **[GitHub Repository Link](https://ocyrus47.github.io/milestone2/)**  
+
+2. Under the repository name, click the green **Code** button and copy the HTTPS URL: https://ocyrus47.github.io/milestone2/
+
+3. Open your local terminal (Command Prompt, Git Bash, or IDE terminal).  
+
+4. Navigate to the directory where you want to clone the project:  
+```bash
+cd your-directory-path
+```
+5. Clone the repository: git clone https://ocyrus47.github.io/milestone2/
+
+6. Open the project folder in your preferred code editor (e.g., VS Code, Gitpot, atom).
+
+7. To view the project in your browser, open the index.html file. Alternatively, use a live server extention in VS Code:
+- Right-click on index.html
+- Select Open with Live Server
+
+or 
+
+in you Git Bash (Do the following command to open port)
+- **python3 -m http.server**
+- you can choose the option to open in preview or your default browser. 
+
+
+## All of the code in this project is done by me
 
 ## Credits
 
