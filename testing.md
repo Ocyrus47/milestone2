@@ -79,13 +79,17 @@ Automated testing helps catch problems quickly and saves time by letting the com
 
 #### HTML 404 Validation
 
-![style](./assets/testing/css-test.jpg)
+![style](./assets/testing/404-test.jpg)
 
 [W3C Markup Valication Service](https://validator.w3.org/ 'link to Markup validator')
 
 ---
 
 #### Javascript Validation
+
+![style](./assets/testing/jshint-test.jpg)
+
+[W3C Markup Valication Service](https://jshint.com/ 'link to jshint Javascript auto testing')
 
 ---
 
