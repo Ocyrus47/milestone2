@@ -1,6 +1,7 @@
 # 📋 **Testing Documentation**
 
-# Contents
+## The principles or manual and automated testing
+
 
 
 ## Testing
@@ -35,10 +36,10 @@ Lighthouse test for mobile
 ### Accessibility testing
 
 Accessibility testing for Desktop
-![style](./assets/testing/accessibility-20test-desktop.jpg)
+![style](./assets/testing/accessibility-test-desktop.jpg)
 
 Accessibility testing for mobile
-![style](./assets/testing/accessibility-20test-mobile.jpg)
+![style](./assets/testing/accessibility-test-mobile.jpg)
 
 
 ### Test carried out for Best Practice and SEO 
