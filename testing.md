@@ -2,7 +2,54 @@
 
 ## The principles or manual and automated testing
 
+### Manual Testing
 
+Manual testing is a process in software testing where testers manually execute test cases without relying on automation tools. The main goal is to identify defects, bugs, or issues by ensuring that the application's features function as intended, based on the specified requirements.
+
+During manual testing, testers simulate end-user interactions with the software to verify its functionality, usability, and overall performance.
+
+#### When to Use Manual Testing
+
+Manual testing is suitable for the following scenarios:
+
+<ul>
+<li>Exploratory Testing: When test cases are not well-defined, and the tester needs to explore the software.
+</li>
+
+<li>Usability Testing: To evaluate the user-friendliness and overall experience.
+</li>
+
+<li>Short-term Projects: When the project timeline is brief and does not justify the setup of automation.
+</li>
+</ul>
+
+---
+
+### Automated Testing
+
+Automated testing, also known as automation testing, is a software testing method where test cases are executed automatically using specialized tools, scripts, and frameworks. Unlike manual testing, which requires human intervention, automated testing relies on predefined scripts to efficiently handle repetitive, complex, and time-consuming tests.
+
+Its primary goal is to enhance testing speed, accuracy, and coverage while minimizing human involvement, especially in regression, performance, and large-scale testing.
+
+#### When to Use Automated Testing
+
+Automated testing is most beneficial in the following scenarios:
+
+<ul>
+<li>Regression Testing: To quickly verify that recent code changes haven’t introduced new bugs.
+</li>
+
+<li>Load and Performance Testing: To evaluate how the application performs under different conditions.
+</li>
+
+<li>Repetitive Tests: When tests need to be run frequently, such as nightly builds or continuous integration pipelines.
+</li>
+
+<li>Data-driven Testing: For tests that require multiple iterations with different input data.
+</li>
+</ul>
+
+---
 
 ## Testing
 
@@ -29,6 +76,20 @@ Automated testing helps catch problems quickly and saves time by letting the com
 ![style](./assets/testing/css-test.jpg)
 
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ 'link to CSS validator')
+
+#### HTML 404 Validation
+
+![style](./assets/testing/css-test.jpg)
+
+[W3C Markup Valication Service](https://validator.w3.org/ 'link to Markup validator')
+
+---
+
+#### Javascript Validation
+
+---
+
+#### Highscore Validaiton
 
 ---
 
@@ -81,13 +142,25 @@ Automated testing helps catch problems quickly and saves time by letting the com
 
 ### Test carried out for Best Practice and SEO 
 
-Best Practice and SEO testing for Desktop
+**Best Practice and SEO testing for Desktop**
+<details>
+
+<summary>Screenshot for Desktop SEO and Best Practice</summary>
+
 ![style](./assets/testing/best-practice-seo-test-desktop.jpg)
+
+</details>
 
 ---
 
-Best Practice and SEO testing for Mobile
+**Best Practice and SEO testing for Mobile**
+<details>
+
+<summary>Screenshot for Mobile SEO and Best Practice</summary>
+
 ![style](./assets/testing/best-practice-seo-test-mobile.jpg)
+
+</details>
 
 ---
 
@@ -131,6 +204,7 @@ Best Practice and SEO testing for Mobile
 8. I want the app to close the pop out recipe details page when close button is clicked. 
     * The close button will highlight to change change color when cursor over. 
     * The pop up page is closed when the close button is clicked. 
+
 
 ### Functionality testing
 
