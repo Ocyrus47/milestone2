@@ -85,28 +85,40 @@ The purpose of this app is to equip anyone who is looking to learn how to cook o
 
 #### The following feature will be in scope for this project
 
-- **Index page with dish and recipe contents and manual.**
+**Index page with dish and recipe contents and manual.**
+- Index page shows and explains the search criteria to the users. Icon at the top left will always take the user back to Index page in any phase of their journey within the app. 
 ![index page](/assets/images/index-page.jpg)
 
-- **Ability to search recipes and dishes using aplhabets or dish name.**
+**Ability to search recipes and dishes using aplhabets to show up in grid blocks with name and view button..**
+- Users are able to simply search with the first alphabets to their desired recipe in the search box.
 ![recipe page](/assets/images/recipe-page.jpg)
 
-- **Recipes starting with the alphabets will show up in grid blocks with name and view button.**
+**Recipes starting with the dish name will show up in grid blocks with name and view button.**
+- Users are able to simply search with the dish name as suggested in the index page to their desired recipe in the search box.
 ![recipe page](/assets/images/recipe-page-with-dish-name.jpg)
 
-- **Mover over effect will enlarge the selected recipe for the user**
+**Mover over effect will enlarge the selected recipe for the user**
+- Moving a mouse over will enlarge the recipe item prompting the user their choice.
 ![recipe page](/assets/images/recipe-highlight-image.jpg)
 
-- **Clicking the view button in searched recipe will open the details for the recipe.**
+**Clicking the search button with execute search recipe for the user**
+- After inputting desired searh criteria they user is able to clikc the search button to execute search based on their input taking them to the recipe grid view page.
+![recipe page](/assets/images/recipe-highlight-image.jpg)
+
+**Clicking the view button in searched recipe will open the details for the recipe.**
+- Recipe details are opened in a modal prompting the user and give them access to the recipe.
 ![recipe page](/assets/images/Recipe-modal.jpg)
 
-- **User has access to custom scroll bar on the right and close button top right**
+**User has access to custom scroll bar on the right and close button top right**
+- Custom scroll bar present in modal for longer recipe items and a custom close button for user to close when done. Closing the recipe modal will take the user back to the search page.
 ![recipe page](/assets/images/Recipe-modal-scrollbar-closebtn.jpg)
 
-- **Empty input will prompt the user with alert**.
+**Empty input will prompt the user with alert**.
+- clicking the search button without and input will prompt and direct the user to input their search criteria in the search box. 
 ![recipe page](/assets/images/empty-input-promt.jpg)
 
-- **Invalid recipe or dish name will prompt the user with alert.**
+**Invalid recipe or dish name will prompt the user with alert.**
+- clicking the search button with invalid input will prompt and notify the user their search criteria in invalid. 
 ![recipe page](/assets/images/invalid-input-prompt.jpg)
 
 #### Possible future implementations currently out of scope include:
