@@ -264,3 +264,33 @@ Automated testing helps catch problems quickly and saves time by letting the com
 | Click app logo                                                                             | Criteria met Y/N | 
 | -------------------------------------------------------------------------------------------|------------------|
 | Reset the search criteria                                                                  |         Y        |
+
+---
+
+## Testing tools used
+
+| **Tool**            | **Purpose**                                                         |
+|----------------------|--------------------------------------------------------------------|
+| **Lighthouse**       | Evaluate performance, accessibility, and best practices            |
+| **W3C HTML Validator** | Validate HTML syntax for errors                                  |
+| **W3C CSS Validator**  | Validate CSS syntax for errors                                   |
+| **JSHint**           | Lint JavaScript for syntax and logical errors                      |
+| **Manual Testing**   | Confirm user stories, responsiveness, and User Experience          |
+
+---
+
+## User Feeback
+
+The app was tested on real audience (including family members who are cook enthusist)
+- Accessibility - The user had clear instructions on how to make find/search their desired recipes. Inputing their search keywords via keyboard and navigating with mouse worked to standard.
+- Functionality - Search function works as expected with aplhabets and keywords in the manuel. The users have clear visibility on pop up modal to navigate which includes cusom scroll bar and close button to go back to recipe decks. 
+- Visual - Users indicated to have good visibility with the color scheme and contrast with the UI.
+- Accissibility - Users confirmed easy to access with clear instruction through out the app in all stages of their interaction. 
+
+---
+
+## Final Notes
+
+The app has undergone extensive testing to ensure optimal functionality, seamless responsiveness, and robust accessibility across a wide range of devices, screen sizes, and platforms. Both manual testing, conducted by volunteer users, and automated testing tools were utilized to cover various scenarios and edge cases. Throughout this rigorous process, all identified bugs, glitches, and performance bottlenecks were carefully documented, analyzed, and resolved. As a result, the app now adheres to industry best practices and complies with the latest standards for usability, accessibility, and performance, providing a smooth and inclusive user experience for all audiences.
+
+**[Back to Top](#top)**  
