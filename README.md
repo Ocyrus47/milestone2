@@ -1,5 +1,7 @@
 # Milestone project 2 - Interactive Frontend Development
 
+![readme header](/assets/images/readme-header-image.png)
+
 ![app Icon](/assets/images/icon.jpg)
 
 <a href="https://ocyrus47.github.io/milestone2/" target="_blank"> Link to milestone 2 project / Interactive Frontend Development </a>
