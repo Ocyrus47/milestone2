@@ -34,6 +34,9 @@ Researched on the best practice for implementation process and applied agile met
 ### Testing
 Used manual and auto testing method by direct input. Screen shots and details of testing below.
 
+Please follow [Testing File](./testing.md), for testing documentation
+
+
 ### Maintainance
 I will carry out maintainance by my own account via Gitpod (VS Code) and Github. I am looking to implement further functionalities and upgrade UI/UX features.
 
