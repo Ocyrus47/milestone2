@@ -42,6 +42,8 @@ Please follow [Testing File](./testing.md), for testing documentation
 ### Maintainance
 I will carry out maintainance by my own account via Gitpod (VS Code) and Github. I am looking to implement further functionalities and upgrade UI/UX features.
 
+---
+
 ## User Experience (UX)
 
 ### App contents
@@ -50,6 +52,8 @@ I will carry out maintainance by my own account via Gitpod (VS Code) and Github.
 - Search button to allow the use to execute search for recipe
 - Keywords manuel for users to search the recipe. 
 
+---
+
 ### Target Audience
 
 - keen individuals interested in trying different recipes
@@ -57,32 +61,42 @@ I will carry out maintainance by my own account via Gitpod (VS Code) and Github.
 - Individuals looking to explore new recipies
 - Anyone with cooking hobby
 
+---
+
 ### Project purpose
 
 It starded from an idea for my sister when she left for her University. Being away from home and not have being the best cook we discussed how she would be able to cook as someone who didn't cook. 
 
 The purpose of this app is to equip anyone who is looking to learn how to cook or bake. The app must be very simple and specific to finding dishes and recipes. It must have very good design principles allowing the user to vision ther end product and facilitae them to view the recipe very quickly. 
 
+---
 
 ### User stories
 
-<ol>
-    <li>As a new user, I do not want to go through the process of creating a profile to view recipies.</li>
-    <li>As a user, I want to be able see the recipe contents available in the app.</li>
-    <li>A a user, I want to be able to navigate through the app UI seamlessly.</li>
-    <li>A a user, I want to be able to view the the dish images and the name along with the recipe.</li>
-    <li>As a user, I want to be able to use the app in my mobile and ipads so I can follow the recipe while cooking.</li>
-</ol>
+- As a new user, I do not want to go through the process of creating a profile to view recipies.
+- As a user, I want to be able see the recipe contents available in the app.
+- A a user, I want to be able to navigate through the app UI seamlessly.
+- A a user, I want to be able to view the the dish images and the name along with the recipe.
+- As a user, I want to be able to use the app in my mobile and ipads so I can follow the recipe while cooking.
+
+---
 
 ### Project Scope
 
 #### The following feature will be in scope for this project
 
-- Index page with dish and recipe contents and manual.
-- Ability to search recipes and dishes using aplhabets or dish name .
+- **Index page with dish and recipe contents and manual.**
+![index page](/assets/images/index-page.jpg)
+
+- **Ability to search recipes and dishes using aplhabets or dish name.**
+![recipe page](/assets/images/recipe-page.jpg)
+
 - Recipes starting with the alphabets will show up in grid blocks with name and view button.
-- View button in searched recipe will open the details for the recipe.
+
+- Clicling the view button in searched recipe will open the details for the recipe.
+
 - Empty input will prompt the user with alert.
+
 - Invalid recipe or dish name will prompt the user with alert.
 
 #### Possible future implementations currently out of scope include:
@@ -102,6 +116,7 @@ This has been achieved by:
 - Adequate aria-labels for interactive features.
 - Adequate alt attributes for images.
 
+---
 
 ## Wireframes
 
@@ -119,6 +134,11 @@ This has been achieved by:
 
 ### Mobile UI - Recipe details after user click view recipe button
 ![Recipe Grid](./assets/images/mobile-recipe-details.jpg)
+
+---
+
+
+
 
 ### Strategy
 
