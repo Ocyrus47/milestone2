@@ -122,7 +122,9 @@ This has been achieved by:
 
 My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist and easy to navigate UX design.
 
-## Technologies
+---
+
+### Technologies
 
 <ul>
     <li>HTML 5</li>
@@ -147,6 +149,8 @@ My goal in the design was to make it as easy as possible to access information o
     <li>CSS</li>
     <li>JavScript</li>
 </ol>
+
+---
 
 ## Features
 
@@ -174,10 +178,13 @@ If the user does not type anything in the search field and executes the search b
 - Allow logged in users to favourite certain dish and recipe they are keen to try.
 -  Create comment section for each recipe to build user cummunity and activity in the app. 
 
+---
 
 ### Project Outcome
 
 Overall, the project successfully meets all client goals and, after extensive testing, fulfills each criterion established for its purpose.
+
+---
 
 ### Devices
 
@@ -189,6 +196,8 @@ The following devices were used to test the app:
 - iPad Tablet
 - iPhone 11 Pro Mobile
 
+---
+
 ### Browsers
 
 The following browsers were used to test the app:
@@ -198,6 +207,8 @@ The following browsers were used to test the app:
 ## BUGS found and Resolution
 
 NULL input - If the user clicks search button without any input results shown in random. So I added the if statement to the searchInput function to alert the user to input valid input. I also changed innerHTML for recipeContainer to put in the following message "Please type the recipe you want to seach to begin. Thank you!<" to guide the user. 
+
+---
 
 ### All of the code in this project is done by me
 
@@ -209,6 +220,8 @@ NULL input - If the user clicks search button without any input results shown in
 - Code Institute for their course material.
 - My cousing for her feedback, help and support throughout the project.
 - [Programming with Mosh.](https://www.youtube.com/@programmingwithmosh)
+
+---
 
 ### Resources
 
