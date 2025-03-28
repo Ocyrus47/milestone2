@@ -141,34 +141,6 @@ My goal in the design was to make it as easy as possible to access information o
 
 ---
 
-### Technologies
-
-<ul>
-    <li>HTML 5</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>Google Chrome Dev Tools</li>
-    <li>lighthouse test</li>
-    <li>Github</li>
-    <li>Gitpod</li>
-    <li>Miro</li>
-    <li>Open API from (https://www.themealdb.com/api.php)</li>
-    <li>Mr Free Logo Maker (https://myfreelogomaker.com/)</li>
-    <li>Font Awesome</li>
-    <li>Google Fonts</li>
-    <li>Media Queries</li>
-</ul>
-
-### Languages
-
-<ol>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavScript</li>
-</ol>
-
----
-
 ## Features
 
 **Index page with dish and recipe contents and manual.**
@@ -240,9 +212,43 @@ The following browsers were used to test the app:
 - Google Chrome
 - Mozilla Firefox
 
+---
+
+### Technologies
+
+<ul>
+    <li>HTML 5</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Google Chrome Dev Tools</li>
+    <li>lighthouse test</li>
+    <li>Github</li>
+    <li>Gitpod</li>
+    <li>Miro</li>
+    <li>Open API from (https://www.themealdb.com/api.php)</li>
+    <li>Mr Free Logo Maker (https://myfreelogomaker.com/)</li>
+    <li>Font Awesome</li>
+    <li>Google Fonts</li>
+    <li>Media Queries</li>
+</ul>
+
+### Languages
+
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavScript</li>
+</ol>
+
+---
+
 ## BUGS found and Resolution
 
-NULL input - If the user clicks search button without any input results shown in random. So I added the if statement to the searchInput function to alert the user to input valid input. I also changed innerHTML for recipeContainer to put in the following message "Please type the recipe you want to seach to begin. Thank you!<" to guide the user. 
+NULL input - If the user clicks search button without any input results shown in random. So I added the if statement to the searchInput function to alert the user to input valid input. I also changed innerHTML for recipeContainer to put in the following message "Please type the recipe you want to seach to begin. Thank you!" to guide the user. 
+
+---
+
+
 
 ---
 
