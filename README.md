@@ -250,7 +250,8 @@ NULL input - If the user clicks search button without any input results shown in
 
 ### Relevant code snippets
 
-#### alert missing for input prompt
+#### Alert missing for input prompt
+Alert message/prompt missing for `searchInput` function
 
 **Before Fix:**
 ![bug 1](/assets/images/bug-1-before-fix.jpg)
@@ -259,6 +260,7 @@ NULL input - If the user clicks search button without any input results shown in
 ![bug 1](/assets/images/bug-1-after-fix.jpg)
 
 #### jshint showing warning/error for sorce code for close button function
+Semicolon missing error in source code for close button function in jshint.
 
 **Before Fix**
 ![bug 2](/assets/images/bug-2-before-fix.jpg)
