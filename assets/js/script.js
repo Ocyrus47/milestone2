@@ -84,7 +84,7 @@ const openRecipe = (meal) => {
 //Close button fuction for recipe details pop up
 recipeCloseBtn.addEventListener('click', () => {
     recipeDetailsContent.parentElement.style = 'none';
-})
+});
 
 searchBtn.addEventListener('click', (e) => {
 
